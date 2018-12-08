@@ -1,0 +1,10 @@
+targets = [ "//:oatpp-curl" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/oatpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-curl"
+version = "branch=master"
+private = true
