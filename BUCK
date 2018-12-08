@@ -3,7 +3,7 @@ load('//:buckaroo_macros.bzl', 'buckaroo_deps')
 
 cxx_library(
   name = 'oatpp-curl', 
-  header_namespace = '', 
+  header_namespace = 'oatpp-curl', 
   exported_headers = subdir_glob([
     ('', '*.hpp'), 
     ('', 'io/**/*.hpp'), 
